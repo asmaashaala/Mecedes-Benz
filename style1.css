@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 1024px;
+    height: auto;
+    margin: auto;
+    
+}
+.head{
+    border: 3px solid black;
+    background-image: url(../imgs/images/bg.jpg);
+    background-repeat: no-repeat;
+    height: 100px;
+    width:100%;
+    border-bottom:3px solid gray ;
+
+}
+.social{
+    float: right;
+    width: 200px;
+    margin-top: 25px ;
+  
+
+}
+.social img{
+    opacity: 0.5;
+}
+.social img:hover{
+    opacity: 1;
+}
+
+.nav{
+    color: aliceblue;
+    margin-top:5px ;
+
+}
+
+.nav li{
+    display: inline-block;
+    padding:6px ;
+    color: aliceblue;
+
+}
+
+.nav li:hover{
+    background-color: brown;
+   
+}
+.main{
+    background-color:whitesmoke;
+    width: 100%;
+   
+}
+.btn{ 
+  width:10rem;
+  margin-top:1rem;
+  border: radius 0.5rem;
+  outline: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+background-color: #6e0aef;
+
+}
+  .slide img{
+    width: 100%;
+    margin:4px ;
+
+  }
+  .section{
+    
+    width: 70%;
+    float: left;
+  }
+   h1{
+    color: rgb(23, 124, 124);
+    border-bottom: 2px solid gray;
+    margin: 10px 20px;
+  }
+  p{
+    text-align:justify;
+    color:black;
+    margin: 10px 20px;
+
+  }
+  .section ul{
+    padding-left: 26px;
+  }
+  .section li{
+    margin-bottom: 5px;
+    text-align: justify;
+  }
+  .section img{
+    border: 1px solid white;
+    padding: 2px;
+    margin: 6px;
+    width: 280px ;
+    height: 180px; ;
+  }
+
+  .section2{
+   
+    width: 30%;
+    float: right;
+   
+  }
+  h3,h4{
+    margin-left: 15px;
+    text-align: center;
+  }
+  h3{
+    color:orange;
+
+  }
+  h4{
+    color: blue;
+  
+  }
+  .clearfix{
+    clear: both;
+  }
+  .footer{
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 20px;
+  }
+  .imgs2{
+    margin-left: 150px ;
+    border: 1px solid white;
+    padding: 2px
+
+  }
+  a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+ 
+  
